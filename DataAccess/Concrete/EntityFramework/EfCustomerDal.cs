@@ -9,29 +9,29 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfBrandDal : IBrandDal
+    public class EfCustomerDal : ICustomerDal
     {
-        public void Add(Brand entity)
+        public void Add(Customer entity)
         {
             throw new NotImplementedException();
         }
 
-        public void Delete(Brand entity)
+        public void Delete(Customer entity)
         {
             throw new NotImplementedException();
         }
 
-        public Brand Get(Expression<Func<Brand, bool>> filter)
+        public Customer Get(Expression<Func<Customer, bool>> filter)
         {
             throw new NotImplementedException();
         }
 
-        public List<Brand> GetAll(Expression<Func<Brand, bool>> filter = null)
+        public List<Customer> GetAll(Expression<Func<Customer, bool>> filter = null)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(Brand entity)
+        public void Update(Customer entity)
         {
             throw new NotImplementedException();
         }

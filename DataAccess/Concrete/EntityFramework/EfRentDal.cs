@@ -9,31 +9,32 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfBrandDal : IBrandDal
+    public class EfRentDal : IRentalDal
     {
-        public void Add(Brand entity)
+        public void Add(Rental entity)
         {
             throw new NotImplementedException();
         }
 
-        public void Delete(Brand entity)
+        public void Delete(Rental entity)
         {
             throw new NotImplementedException();
         }
 
-        public Brand Get(Expression<Func<Brand, bool>> filter)
+        public Rental Get(Expression<Func<Rental, bool>> filter)
         {
             throw new NotImplementedException();
         }
 
-        public List<Brand> GetAll(Expression<Func<Brand, bool>> filter = null)
+        public List<Rental> GetAll(Expression<Func<Rental, bool>> filter = null)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(Brand entity)
+        public void Update(Rental entity)
         {
             throw new NotImplementedException();
         }
     }
+}
 }
